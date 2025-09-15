@@ -3,9 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- tailwind css -->
+       <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Document</title>
+    <link rel="stylesheet" href="responsive.css">
 </head>
 <body>
-    
+<header>
+    <nav class="nav-container mt-6 mb-30">
+    <div class="nav-section flex justify-around items-center ">
+        <div class="nav-logo"><img src="./flower-picture/logo.png" alt="it's our logo guys" srcset="" class="w-35 h-21"></div>
+        <div class="nav-items">
+            <ul class="nav-list inter-primary flex justify-between items-center gap-10 ">
+                <li class="home">Home</li>
+                <li class="shop">Shop</li>
+                <li class="about ">About</li>
+                <li class="cart"><img src="./flower-picture/cart.png" alt="" srcset="" class="w-6 h-6 inline-block" ><span> cart  ($56)</span></li>
+            </ul>
+        </div>
+    </div>
+    </nav>
+
+    <section class="hero-section">
+        <div class="hero-container flex">
+            <div class="hero-details">
+                <h1 class="hero-header">
+                    ALWAYS <span> FRESH</span> <br><span>FLOWERS</span>
+                </h1>
+                <p class="hero-details">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
+               
+            </div>
+             <img src="./flower-picture/hero-flower.png" alt="" class="hero-img">
+        </div>
+    </section>
+</header>
 </body>
 </html>
