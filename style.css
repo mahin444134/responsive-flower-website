@@ -59,6 +59,7 @@
 .flowerlover-heading{width: 400px;}
 .folowerlover-details li{padding: 5px;}
 .flower-loverimg{height: 100%;padding-top: -80px;min-width: 350px;}
+.star-img{height: 220px;width: 220px;position: relative;top:-500px;left: 230px;}
 
 /* latest deal */
 .latest-plan{margin: 50px 150px 100px 150px;}
@@ -90,6 +91,25 @@ padding-top: 180px;}
 .submit-button:hover {
   background-color: #e85c50;}
 
+  /* footer */
+
+ .footer{ margin: 30px 150px 30px 150px;padding-top: 30px;}
+ .footer-content{display:flex;flex-wrap:wrap;justify-content:space-between;max-width:1140px;margin:auto;gap: 50px;align-items: center;}
+ .ftr-links{display: flex;gap: 20px;}
+ .footer-content>*{flex: 1;}
+ .footer-para1{margin-bottom:20px}
+ .ftr-logo{width:80px;height:auto}
+ .ftr-motto{font-size:17px;color:#6B7280;font-weight:normal;margin-top: 10px;}
+ .ftr-links{display: flex;flex-direction:row;gap: 50px;align-items: center;}
+ .ftr-links{list-style:none;padding:0;}
+ .ftr-links li{margin-bottom:12px;font-size: 13px;}
+ .ftr-links a{text-decoration:none;color:#6B7280;transition:color 0.3s ease}
+ .ftr-links a:hover{color:#e67e22}
+ .footer-socialicon{display: flex;gap: 40px;}
+ .footer-socialicon img{width:24px;height:24px;transition:transform 0.3s ease}
+ .footer-socialicon img:hover{border:2px solid #c6c2bf; border-radius: 50%;transition: all 0.4s ease; }
+
+
 
 
 
@@ -117,6 +137,13 @@ padding-top: 180px;}
     .latest-plancontainer{flex-direction: column;align-items: center;}
     .second-plan{width: 367px;height: 201px;background-size: cover;}
     .latest-plan{margin-left: 55px;margin-top: 700px;margin-right: 55px;}
+    .footer {margin: 20px;padding-top: 20px;}
+ .footer-content {flex-direction: column;align-items: flex-start;gap: 30px;}
+ .ftr-links {flex-direction: column;gap: 10px;align-items: flex-start;}
+.footer-socialicon {gap: 20px;justify-content: flex-start;}
+.ftr-motto {font-size: 15px;}
+.ftr-links li {font-size: 14px;}
+.star-img{display: none;}
 
     
 }
@@ -136,9 +163,15 @@ padding-top: 180px;}
  .flowerlover-heading{width:250px;}
  .flowerlover-list li{padding: 0px;font-size: 15px;}
  .latest-plancontainer{flex-direction: column;align-items: center;}
-      .pic2-plan,.pic1-plan ,.second-plan{width: 450px;height: 250px;background-size: cover;}
-  
-    .latest-plan{margin-left: 55px;margin-top: 50px;margin-right: 55px;}
-
-
+.pic2-plan,.pic1-plan ,.second-plan{width: 450px;height: 250px;background-size: cover;}
+.latest-plan{margin-left: 55px;margin-top: 50px;margin-right: 55px;}
+.star-img{display: none;}
+.footer {margin: 30px 40px;padding-top: 25px;}
+.footer-content {gap: 40px;flex-wrap: wrap;}
+.ftr-links {flex-direction: row;gap: 30px;justify-content: flex-start;}
+.footer-socialicon {gap: 30px;justify-content: flex-start;}
+.ftr-motto {font-size: 16px;}
+.ftr-links li {font-size: 13px;}
+ 
 }
+
