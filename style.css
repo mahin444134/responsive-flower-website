@@ -60,8 +60,59 @@
 .folowerlover-details li{padding: 5px;}
 .flower-loverimg{height: 100%;padding-top: -80px;min-width: 350px;}
 
+/* latest deal */
+.latest-plan{margin: 50px 150px 100px 150px;}
+.latest-plancontainer{max-width: 1140px;display: flex;gap: 25px;justify-content: space-between;}
+.first-plan{display: flex;flex-direction:column;gap:20px}
+.pic1-plan{background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./flower-picture/deal-bloom.png); width: 367px;height: 201px;border-radius: 22px;display: flex;flex-direction: column;align-items: center;justify-content: center;}
+
+.pic2-plan{background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./flower-picture/deal-ana.png);width: 367px;height: 201px;background-size: cover;border-radius: 22px;display: flex;flex-direction: column;align-items: center;justify-content: center;
+  }
+.second-plan{background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./flower-picture/deal-zabo.png);width:753px;height: auto; height: 422px;background-size: cover;border-radius:22px;display: flex;flex-direction: column;align-items: center;justify-content: center;}
+.pic1-title{color:#fff;font-size: 20px;font-weight: bolder;}
+.plan-button{color: #fff;font-size: 16px;font-weight: bolder;border-bottom: 2px solid white;}
+.pic2-button , .pic2-title{font-size: 23px;font-weight: bold;}
 
 
+/* submit section */
+
+
+
+.join-heading {
+  font-size: 32px;color: #ff6f61;margin-bottom: 20px;
+}
+
+.form-joinsection {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.email-type {
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid #ff6f61;
+  border-radius: 6px;
+  width: 60%;
+  min-width: 200px;
+}
+
+.submit-button {
+  padding: 12px 20px;
+  font-size: 16px;
+  background-color: #ff6f61;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #e85c50;
+}
 
 
 
@@ -84,9 +135,12 @@
     .our-plants{margin: 0 auto;margin: 10px 55px;margin-bottom: 0px;}
     .flower-container{flex-direction: column;}
     .flower-loverimg{width: 90%;height:min-content;margin: 0px;padding: 0px;}
-    .folowerlover-details{margin-left: 55px;margin-top: 0px;margin-right: 55px;}
+    .folowerlover-details{margin-left: 55px;margin-top: 0px;margin-right: 55px;padding-bottom: 70px;}
     .flowerlover-list{padding-left: 20px;}
-    .flower-plantlover{margin: 0px;}
+    .flower-plantlover{margin: 0px 0px 30px 0px;}
+    .latest-plancontainer{flex-direction: column;align-items: center;}
+    .second-plan{width: 367px;height: 201px;background-size: cover;}
+    .latest-plan{margin-left: 55px;margin-top: 700px;margin-right: 55px;}
     
 }
 /* for tab or mini laptop */
@@ -104,6 +158,10 @@
  .flowerlover-heading , #f2-heding{max-width:280px;margin: 0px;padding: 0px;font-size: 28px;}
  .flowerlover-heading{width:250px;}
  .flowerlover-list li{padding: 0px;font-size: 15px;}
+ .latest-plancontainer{flex-direction: column;align-items: center;}
+      .pic2-plan,.pic1-plan ,.second-plan{width: 450px;height: 250px;background-size: cover;}
+  
+    .latest-plan{margin-left: 55px;margin-top: 50px;margin-right: 55px;}
 
 
 }
