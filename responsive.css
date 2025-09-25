@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
+
+
 .noto-primary{
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
@@ -19,12 +21,44 @@
  
 
 /* nav */
+.nav-section{margin-bottom: 150px;margin-top: 20px;max-width: 1140px;}
+.nav-container{margin-right: 150px;margin-left: 150px;}
+.nav-logo img{margin: 0 auto; margin-top: -10px;}
 
 .home{color: rgba(37, 36, 50, 1);font-size: 1em;}
 .shop ,.about{color: rgba(137, 135, 161, 1);font-size: 1em;font-weight: normal;}
 .cart{font-weight: normal;font-size: 1em;}
+/* hero */
+.hero-section{margin:0px 150px 150px 150px;}
+.hero-details{max-width: 500px;}
 
+.hero-container{max-width: 1140px;margin:0 auto;}
 
+.hero-header{font-size: 3em;font-weight: bold;}
+#orange-color{color: rgba(233, 90, 8, 1);}
+.hero-para{font: size 1em;;font-weight: normal;color: rgba(0,0,0,0.5);}
+.hero-img{max-width:500px}
+
+/* our-plants section */
+.our-plants{margin: 0px 150px;max-width: 1140px;}
+.plant-heading{text-align: center;font-size: 2.5em;font-weight: 600;}
+.plants-para{font: size 1em;;font-weight: normal;color: rgba(0,0,0,0.5);text-align: center;max-width: 650px;margin: 0 auto;padding-top: 15px;padding-bottom: 40px;}
+.plants-card{max-width: 270px;}
+.card-interheader{margin-bottom: 10px;}
+.card-btn{width:100% ;background-color:  rgba(233, 90, 8, 1);color: white;font-size:12px;padding: 10px 60px;}
+.cards-container{gap:20px ;}
+/* .flower and plants lover */
+.flower-plantlover{margin: 50px 150px 100px 150px;}
+/* .flowerlover-img{max-width:540px;max-height: 400px;} */
+
+/* .folowerlover-details{max-width: 400px;max-height: 400px;} */
+.flower-container{max-width: 1140px;max-height: 400px;gap:100px;}
+.flower-container>*{flex: 1;}
+.flowerlover-list{list-style-type: disc;font-size: 16px;font-weight: normal;color: rgba(0,0,0,0.5);}
+.flowerlover-heading ,#f2-heding{font-size: 40px;font-weight: bold;}
+.flowerlover-heading{width: 400px;}
+.folowerlover-details li{padding: 5px;}
+.flower-loverimg{height: 100%;padding-top: -80px;min-width: 350px;}
 
 
 
@@ -35,7 +69,41 @@
 
 
 /* responsive design */
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 600px) {
+  .nav-container{margin: 0px 50px 50px 50px;width:auto;}
+  
+  
     .about,.home,.shop{display: none;}
+    .hero-container{flex-direction: column-reverse;margin-bottom: 80px;}
+    .hero-section{margin: 0px;}
+    .hero-img {width: 100%;height: min-content;}
+    .hero-details{margin-left: 55px;margin-top: 30px;margin-right: 55px;}
+    .hero-para{padding-top: 10px;}
+    .hero-header{font-size: 2.5em;}
+    .cards-container{grid-template-columns: repeat(2,1fr)}
+    .our-plants{margin: 0 auto;margin: 10px 55px;margin-bottom: 0px;}
+    .flower-container{flex-direction: column;}
+    .flower-loverimg{width: 90%;height:min-content;margin: 0px;padding: 0px;}
+    .folowerlover-details{margin-left: 55px;margin-top: 0px;margin-right: 55px;}
+    .flowerlover-list{padding-left: 20px;}
+    .flower-plantlover{margin: 0px;}
     
+}
+/* for tab or mini laptop */
+@media screen and (min-width:601px) and (max-width: 1030px) {.nav-container{margin-left: 150px auto;margin-right: 150px auto;}
+.hero-img{width: auto;}
+.hero-section{margin:0px 10px}
+.about,.home,.shop{display: none;}
+.hero-container{flex-direction: column;margin-bottom: 80px;max-width:fit-content;}
+ .cards-container{grid-template-columns: repeat(2,1fr);align-content: center;justify-content: space-between;}
+ .flower-container{flex-direction:;margin-bottom: 80px;margin-right: 0px;gap: 50px;}
+ .flower-plantlover{margin: 0px 10px;}
+ .flower-loverimg{min-width: 250px;max-width: 350px;}
+ .flower-container>*{flex: 1;}
+ .folowerlover-details{min-width:250px;}
+ .flowerlover-heading , #f2-heding{max-width:280px;margin: 0px;padding: 0px;font-size: 28px;}
+ .flowerlover-heading{width:250px;}
+ .flowerlover-list li{padding: 0px;font-size: 15px;}
+
+
 }
