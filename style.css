@@ -62,7 +62,7 @@
 .star-img{height: 220px;width: 220px;position: relative;top:-500px;left: 230px;}
 
 /* latest deal */
-.latest-plan{margin: 50px 150px 100px 150px;}
+.latest-plan{margin: -150px 150px 100px 150px;}
 .latest-plancontainer{max-width: 1140px;display: flex;gap: 25px;justify-content: space-between;}
 .first-plan{display: flex;flex-direction:column;gap:20px}
 .pic1-plan{background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./flower-picture/deal-bloom.png); width: 367px;height: 201px;border-radius: 22px;display: flex;flex-direction: column;align-items: center;justify-content: center;}
